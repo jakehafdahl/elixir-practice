@@ -1,0 +1,21 @@
+v2.
+{<<"_build/dev/lib/elixirchat/ebin/Elixir.ElixirChat.beam">>,
+ 'Elixir.ElixirChat',module,<<"lib/elixirchat.ex">>,
+ ['Elixir.Kernel'],
+ [],[],nil}.
+{<<"_build/dev/lib/elixirchat/ebin/Elixir.ElixirChat.Room.beam">>,
+ 'Elixir.ElixirChat.Room',module,<<"lib/chat/room.ex">>,
+ ['Elixir.Module','Elixir.Kernel'],
+ ['Elixir.Agent'],
+ [],nil}.
+{<<"_build/dev/lib/elixirchat/ebin/Elixir.ElixirChat.Supervisor.beam">>,
+ 'Elixir.ElixirChat.Supervisor',module,<<"lib/chat/supervisor.ex">>,
+ ['Elixir.Supervisor','Elixir.Module','Elixir.Kernel',
+  'Elixir.Supervisor.Spec'],
+ ['Elixir.ElixirChat.Registry'],
+ [],nil}.
+{<<"_build/dev/lib/elixirchat/ebin/Elixir.ElixirChat.Registry.beam">>,
+ 'Elixir.ElixirChat.Registry',module,<<"lib/chat/registry.ex">>,
+ ['Elixir.GenServer','Elixir.Module','Elixir.Kernel'],
+ ['Elixir.Map',erlang,'Elixir.ElixirChat'],
+ [],nil}.
