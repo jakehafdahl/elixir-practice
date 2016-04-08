@@ -1,8 +1,7 @@
 defmodule ElixirChatTest do
-  use ExUnit.Case
-  doctest ElixirChat
+  	use ExUnit.Case, async: true
 
-  test "the truth" do
-    assert 1 + 1 == 2
-  end
+  	test "the truth" do
+    	assert 1 + 1 == 2
+  	end
 end
